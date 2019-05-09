@@ -1,0 +1,65 @@
+/*!
+ * Start Bootstrap - The Big Picture (https://startbootstrap.com/template-overviews/the-big-picture)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-the-big-picture/blob/master/LICENSE)
+ */
+body {
+  background: url('https://static2.coutie.com/media/aw_blog/2017/vans-x-coutie-old-skool/vans-x-coutie-02.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+h1, p {
+    color: white;
+    
+}
+
+h1:hover {
+    -webkit-animation: h1 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+	        animation: h1 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+    cursor: pointer;
+    font-family: 'Abril Fatface';
+    
+    
+}
+
+ @-webkit-keyframes h1 {
+  0% {
+    -webkit-filter: blur(12px);
+            filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
+    opacity: 1;
+  }
+}
+@keyframes h1 {
+  0% {
+    -webkit-filter: blur(12px);
+            filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
+    opacity: 1;
+  }
+}
+
+
+.rounded-circle {
+     animation: rotation 8s infinite linear;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
